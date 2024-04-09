@@ -5,19 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUBER</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 <body>
-    <header class="header">
-        <div>
-        <a href="home.html">Página Inicial</a>
-        <a href="venda.html">Venda</a>
-        <a href="locacao.html">Locação</a>
-        <a href="sobre.html">Sobre</a>
+    <header>
+        <nav id="navbar">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Página de Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#local">Locação</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#venda">Venda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Cadastre-se
+            </button>
+
+            <button class="btn-default">
+                Login
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Página de Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#local">Locação</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#venda">Venda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Cadastre-se
+            </button>
+
+            <button class="btn-default">
+                Login
+            </button>
+
         </div>
-        <div>
-        <a href="login.html">Login</a>
-        <a href="cadastro.html">Cadastro</a>
-        </div>
-        </header>
+
+    </header>
 </body>
 </html>
